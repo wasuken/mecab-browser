@@ -1,5 +1,5 @@
 import React from 'react'
-import Axios from 'axios'
+
 class InputOutputField extends React.Component{
 	constructor(){
 		super();
@@ -25,15 +25,6 @@ class InputOutputField extends React.Component{
 					text: result.split(" ").join("\n")
 				});
 			});
-		// Axios.get('http://localhost:4567/conv/wakati?text=' + e.target.value)
-		// 	.then(function(response){
-		// 		console.log(response.data);
-		// 		var result = response.data;
-		// 		that.setState({
-		// 			text: result.split(" ").join("\n")
-		// 		});
-		// 	});
-
 	}
 	render(){
 		return (
