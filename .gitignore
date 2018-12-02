@@ -1,0 +1,4 @@
+public/js/*
+vendor/
+.bundle
+node_modules
